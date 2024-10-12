@@ -83,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',  # 
         'NAME': 'jwtdatabase',           #
         'USER': 'root',                
-        'PASSWORD': '0924475152@os',          
+        'PASSWORD': '',          
         'HOST': 'localhost',                    
         'PORT': '3306',                         
     }
