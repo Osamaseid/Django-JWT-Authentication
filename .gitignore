@@ -1,0 +1,68 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg-info/
+*.egg
+
+# Django
+*.sqlite3
+db.sqlite3  # SQLite database file (if still present)
+media/
+staticfiles/
+*.log
+
+# MySQL
+*.sql  # SQL dump files, if generated
+*.mysql  # MySQL specific files
+*.cnf  # MySQL configuration files
+
+# Environment
+.env
+*.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# Unit test / coverage reports
+.coverage
+coverage.xml
+*.cover
+*.pyc
+nosetests.xml
+test.xml
+tox.log
+*.mo
+*.pot
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.cache
+pytest_cache/
+
+# Pipenv
+Pipfile.lock
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Other
+*.bak
+*.tmp
+*.temp
